@@ -11,6 +11,8 @@
 		696EEF612AB314AC00E948E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696EEF602AB314AC00E948E0 /* ContentView.swift */; };
 		696EEF632AB314AD00E948E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696EEF622AB314AD00E948E0 /* Assets.xcassets */; };
 		696EEF662AB314AD00E948E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696EEF652AB314AD00E948E0 /* Preview Assets.xcassets */; };
+		696EEF6D2AB314C400E948E0 /* CircularShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696EEF6C2AB314C400E948E0 /* CircularShape.swift */; };
+		696EEF6F2AB3176700E948E0 /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696EEF6E2AB3176700E948E0 /* CircularView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		696EEF602AB314AC00E948E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		696EEF622AB314AD00E948E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		696EEF652AB314AD00E948E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		696EEF6C2AB314C400E948E0 /* CircularShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShape.swift; sourceTree = "<group>"; };
+		696EEF6E2AB3176700E948E0 /* CircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				696EEF5E2AB314AC00E948E0 /* CircularProgressBarApp.swift */,
 				696EEF602AB314AC00E948E0 /* ContentView.swift */,
+				696EEF6C2AB314C400E948E0 /* CircularShape.swift */,
 				696EEF622AB314AD00E948E0 /* Assets.xcassets */,
 				696EEF642AB314AD00E948E0 /* Preview Content */,
+				696EEF6E2AB3176700E948E0 /* CircularView.swift */,
 			);
 			path = CircularProgressBar;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				696EEF6D2AB314C400E948E0 /* CircularShape.swift in Sources */,
+				696EEF6F2AB3176700E948E0 /* CircularView.swift in Sources */,
 				696EEF612AB314AC00E948E0 /* ContentView.swift in Sources */,
 				696EEF5F2AB314AC00E948E0 /* CircularProgressBarApp.swift in Sources */,
 			);
